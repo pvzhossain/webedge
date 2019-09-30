@@ -1,0 +1,324 @@
+@font-face{
+    src: url(fonts/CinzelDecorative-Bold.ttf);
+    font-family: cinze;
+}
+@font-face{
+    src: url(fonts/Comfortaa-Medium.ttf);
+    font-family: cute;
+}
+
+@font-face{
+    src: url(fonts/ReemKufi-Regular.ttf);
+    font-family: reem;
+}
+
+@font-face{
+    src: url(fonts/PoiretOne-Regular.ttf);
+    font-family: poire;
+}
+
+@font-face{
+    src: url(fonts/JosefinSans-SemiBold.ttf);
+    font-family: justin;
+}
+
+@font-face{
+    src: url(fonts/Rubik-Medium.ttf);
+    font-family: voll;
+}
+
+@font-face{
+    src: url(fonts/Rokkitt-ExtraBold.ttf);
+    font-family: rokk;
+}
+
+
+@font-face{
+    src: url(fonts/Sniglet-ExtraBold.ttf);
+    font-family: sing;
+}
+
+@font-face{
+    src: url(fonts/Sniglet-Regular.ttf);
+    font-family: sing2;
+}
+
+.navbar{
+    background: rgba(22, 21, 21, 0.719);
+}
+
+.navbar-collapse ul li a{
+    font-family: justin;
+    color: rgba(156, 158, 22, 0.575);
+}
+
+.navbar ul li{
+    margin-left: 30px;
+}
+
+
+.carousel-caption{
+    background: rgba(44, 48, 48, 0.767);
+    color: white;
+    width: 100%;
+    left: 0;
+}
+
+.carousel-indicators{
+    margin-bottom: 25px;
+}
+
+.services{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.services-content{
+    display: flex;
+}
+
+.services-section{
+    flex: 1;
+    /* border: 1px solid blue; */
+}
+.services-head{
+    font-family: rokk;
+}
+
+.design-icon a{
+    color: rgb(221, 240, 49);
+    width: 185px;
+    height: 185px;
+    margin-left: 160px;
+}
+
+.photoshop-icon a{
+    color: rgb(221, 240, 49);
+    width: 185px;
+    height: 185px;
+    margin-left: 180px;
+}
+
+.service-content-head{
+    font-family: rokk;
+}
+
+.about-content{
+    display: flex;
+}
+
+.about-section{
+    flex: 1;
+}
+
+.about-web-edge{
+    /* background: rgba(155, 141, 141, 0.11); */
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about-head{
+    font-family: voll;
+}
+
+.expertise{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.expertise-head{
+    color: red;
+    font-family: voll;
+}
+
+
+.team-content{
+    display: flex;
+}
+
+.team-section{
+    flex: 1;
+    /* border: 1px solid blue; */
+}
+
+.team-man img{
+    margin-left: 130px;
+    border: 2px solid rgba(221, 59, 59, 0.418);
+}
+
+.team-content{
+    margin-bottom: 50px;
+}
+
+.team{
+    margin-bottom: 50px;
+}
+
+.team-head{
+    font-family: sing;
+}
+
+.team-content-head{
+    font-family: sing2;
+}
+
+
+.footer{
+    background-color: rgb(58, 51, 53);
+    height: 400px;
+    position: relative;
+}
+
+
+
+
+.footer-content{
+    /* border: 1px solid red; */
+    height: 350px;
+    display: flex;
+}
+
+
+.footer-section{
+    flex: 1;
+    /* border: 1px solid white; */
+}
+
+.footer-text{
+    color: white;
+    margin-left: 20px;
+    font-family: cute;
+    text-align: justify;
+}
+
+.footer-contact{
+    color: white;
+}
+
+.footer-head{
+    color: white;
+    text-align: center;
+    font-family: cinze;
+    margin-top: 10px;
+}
+
+.footer-link-head{
+    color: white;
+    text-align: center;
+    font-family: reem;
+    margin-top: 10px;
+}
+
+.footer-contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.footer-contact{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.footer .socials{
+    margin-left: 20px;
+    margin-top: 45px;
+   
+}
+
+.footer .socials a{
+    color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    transition: all .4s;
+}
+
+.footer .socials a:hover{
+    border: 1px solid white;
+    color: white;
+    transition: all .4s;
+    
+}
+
+.footer .links ul a{
+    display: block;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: white;
+    margin-left: 130px;
+    transition: all .4s;
+    font-family: poire;
+}
+
+.footer .links ul a:hover{
+    color: rgb(184, 209, 70);
+    margin-left: 128px;
+    transition: all .4s;
+    
+}
+
+.footer-contact-head{
+    color: white;
+    text-align: center;
+    font-family: reem;
+    margin-top: 10px;
+}
+
+.footer-contact-input-mail{
+    background: rgb(97, 74, 74);
+    margin-bottom: 25px;
+    line-height: 1rem;
+    padding: .7rem 1.2rem;
+    margin-left: 140px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: white;
+}
+
+.footer-textarea{
+    background: rgb(97, 74, 74);
+    margin-bottom: 10px;
+    margin-left: 140px;
+    line-height: 1.3rem;
+    width: 220px;
+    height: 100px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: white;
+}
+
+#btn{
+    margin-left: 287px;
+    border: 1.5px solid rgb(145, 141, 141);
+    border-radius: 5px;
+    background: rgb(129, 102, 102);
+    font-family: cinze;
+    color: white;
+}
+
+#btn:hover{
+    color: rgb(184, 209, 70);
+    transition: all .4s;
+}
+
+
+.footer-button{
+    background: grey;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
