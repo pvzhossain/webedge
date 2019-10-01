@@ -43,6 +43,8 @@
     font-family: sing2;
 }
 
+
+
 .navbar{
     background: rgba(22, 21, 21, 0.719);
 }
@@ -85,18 +87,10 @@
     font-family: rokk;
 }
 
-.design-icon a{
-    color: rgb(221, 240, 49);
-    width: 185px;
-    height: 185px;
-    margin-left: 160px;
-}
-
-.photoshop-icon a{
-    color: rgb(221, 240, 49);
-    width: 185px;
-    height: 185px;
-    margin-left: 180px;
+.design-icon img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .service-content-head{
@@ -112,7 +106,6 @@
 }
 
 .about-web-edge{
-    /* background: rgba(155, 141, 141, 0.11); */
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -142,8 +135,11 @@
 }
 
 .team-man img{
-    margin-left: 130px;
+    
     border: 2px solid rgba(221, 59, 59, 0.418);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .team-content{
@@ -163,18 +159,9 @@
 }
 
 
-.footer{
-    background-color: rgb(58, 51, 53);
-    height: 400px;
-    position: relative;
-}
-
-
-
-
 .footer-content{
-    /* border: 1px solid red; */
-    height: 350px;
+    background-color: rgb(58, 51, 53);
+    position: relative;
     display: flex;
 }
 
@@ -186,9 +173,10 @@
 
 .footer-text{
     color: white;
-    margin-left: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: cute;
-    text-align: justify;
 }
 
 .footer-contact{
@@ -218,50 +206,52 @@
 }
 
 .footer-contact{
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
 }
-
-.footer .socials{
+.socials{
     margin-left: 20px;
     margin-top: 45px;
    
 }
 
-.footer .socials a{
+.socials a{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
     color: white;
     border: 1px solid grey;
     border-radius: 5px;
     width: 45px;
     height: 41px;
     padding-top: 5px;
-    margin-right: 5px;
+    margin-bottom: 8px;
     text-align: center;
-    display: inline-block;
     font-size: 1.3em;
     transition: all .4s;
 }
 
-.footer .socials a:hover{
+.socials a:hover{
     border: 1px solid white;
     color: white;
     transition: all .4s;
     
 }
 
-.footer .links ul a{
+.links ul a{
+    margin-left: 80px;
+    margin-right: auto;
     display: block;
     margin-top: 20px;
     font-size: 1.2em;
     color: white;
-    margin-left: 130px;
     transition: all .4s;
     font-family: poire;
 }
 
-.footer .links ul a:hover{
+.links ul a:hover{
     color: rgb(184, 209, 70);
-    margin-left: 128px;
     transition: all .4s;
     
 }
@@ -273,21 +263,25 @@
     margin-top: 10px;
 }
 
-.footer-contact-input-mail{
+.contact-form input{
     background: rgb(97, 74, 74);
-    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
     line-height: 1rem;
     padding: .7rem 1.2rem;
-    margin-left: 140px;
     border: 2px solid gray;
     border-radius: 5px;
     color: white;
 }
 
-.footer-textarea{
+.contact-form textarea{
     background: rgb(97, 74, 74);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     margin-bottom: 10px;
-    margin-left: 140px;
     line-height: 1.3rem;
     width: 220px;
     height: 100px;
@@ -297,7 +291,9 @@
 }
 
 #btn{
-    margin-left: 287px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     border: 1.5px solid rgb(145, 141, 141);
     border-radius: 5px;
     background: rgb(129, 102, 102);
@@ -315,10 +311,8 @@
     background: grey;
     color: white;
     height: 50px;
-    width: 100%;
+}
+
+.footer-btn-inner{
     text-align: center;
-    padding-top: 10px;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
 }
